@@ -1,0 +1,1 @@
+sqlcmd -E -S .\SQLExpress -i DACS2.sql
