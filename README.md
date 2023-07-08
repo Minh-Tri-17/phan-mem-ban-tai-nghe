@@ -1,2 +1,2 @@
 # software-sales
-Phần mềm bán hàng ( Quần áo )
+Phần mềm bán hàng ( Tai nghe )
