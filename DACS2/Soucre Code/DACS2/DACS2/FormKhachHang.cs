@@ -28,27 +28,27 @@ namespace DACS2
 
         private void XulyDgvKH()
         {
-            dgvKH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvKH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvKH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvKH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvKH.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvKH.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvKH.EnableHeadersVisualStyles = false;
             dgvKH.BorderStyle = BorderStyle.None;
 
-            dgvKH.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvKH.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvKH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvKH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvKH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvKH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvKH.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvKH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvKH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvKH.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvKH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0); 
+            dgvKH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvKH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvKH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvKH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvKH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvKH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0); 
 
             dgvKH.Columns[0].Visible = false;
-            dgvKH.Columns[1].HeaderText = "Tên khách hàng";
-            dgvKH.Columns[2].HeaderText = "Số điện thoại";
-            dgvKH.Columns[3].HeaderText = "Địa chỉ";
+            dgvKH.Columns[1].HeaderText = "Tên Khách Hàng";
+            dgvKH.Columns[2].HeaderText = "Số Điện Thoại";
+            dgvKH.Columns[3].HeaderText = "Địa Chỉ";
             dgvKH.Columns[4].HeaderText = "Loại";
         }
 
@@ -99,7 +99,7 @@ namespace DACS2
             int a = Int32.Parse(DataProvider.Instance.ExecuteScalar(query).ToString());
             if(a == 1)
             {
-                MessageBox.Show("Khách hàng đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Khách Hàng Đã Tồn Tại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else if(a == 0)
             {
@@ -108,12 +108,12 @@ namespace DACS2
                 try
                 {
                     DataProvider.Instance.ExecuteQuery(query1);
-                    MessageBox.Show("Thêm khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thêm Khách Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FormKhachHang_Load(sender, e);
                 }
                 catch
                 {
-                    MessageBox.Show("Thêm khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Thêm Khách Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }
@@ -126,12 +126,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteQuery(query);
-                MessageBox.Show("Sửa khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Khách Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormKhachHang_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Sửa khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Sửa Khách Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -142,12 +142,25 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteQuery(query);
-                MessageBox.Show("Xóa khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Khách Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormKhachHang_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Xóa khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Khách Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSDT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

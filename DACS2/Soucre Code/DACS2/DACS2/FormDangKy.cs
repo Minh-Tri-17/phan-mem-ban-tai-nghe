@@ -29,7 +29,7 @@ namespace DACS2
 
         private void btnT_Click(object sender, EventArgs e)
         {
-            DialogResult h = MessageBox.Show("Thông báo", "Bạn có chắc muốn thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult h = MessageBox.Show("Thông Báo", "Bạn Có Chắc Muốn Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (h == DialogResult.OK)
             {
                 this.Close();
@@ -69,35 +69,35 @@ namespace DACS2
         {
             if (Check())
             {
-                query = string.Format("insert into DANG_NHAP values('{0}','{1}','{2}','{3}')", txtTDN.Text, txtMK.Text, txtSDT.Text, txtE.Text);
+                query = string.Format("insert into DANG_NHAP values('{0}','{1}','{2}','{3}', 0)", txtTDN.Text, txtMK.Text, txtSDT.Text, txtE.Text);
 
                 try
                 {
                     if (txtTDN.Text != "" && txtSDT.Text != "" && txtMK.Text != "" && txtE.Text != "")
                     {
                         DataProvider.Instance.ExecuteNonQuery(query);
-                        MessageBox.Show("Đăng ký thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Đăng Ký Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Close();
                     }
                     else
                     {
-                        MessageBox.Show("Đăng ký thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Đăng Ký Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                }
-                catch
-                {
-                    MessageBox.Show("Tài khoản đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
+                catch
+            {
+                MessageBox.Show("Tài Khoản Đã Tồn Tại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
             else
             {
-                MessageBox.Show("Vui lòng nhập lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui Lòng Nhập Lại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void txtTDN_Click(object sender, EventArgs e)
         {
-            if (txtTDN.Text == "Tên đăng nhập")
+            if (txtTDN.Text == "Tên Đăng Nhập")
             {
                 txtTDN.Text = "";
             }
@@ -105,7 +105,7 @@ namespace DACS2
 
         private void txtMK_Click(object sender, EventArgs e)
         {
-            if (txtMK.Text == "Mật khẩu")
+            if (txtMK.Text == "Mật Khẩu")
             {
                 txtMK.Text = "";
             }
@@ -113,7 +113,7 @@ namespace DACS2
 
         private void txtSDT_Click(object sender, EventArgs e)
         {
-            if (txtSDT.Text == "Số điện thoại")
+            if (txtSDT.Text == "Số Điện Thoại")
             {
                 txtSDT.Text = "";
             }
@@ -131,7 +131,7 @@ namespace DACS2
         {
             if (txtTDN.Text == "")
             {
-                txtTDN.Text = "Tên đăng nhập";
+                txtTDN.Text = "Tên Đăng Nhập";
             }
         }
 
@@ -139,7 +139,7 @@ namespace DACS2
         {
             if (txtMK.Text == "")
             {
-                txtMK.Text = "Mật khẩu";
+                txtMK.Text = "Mật Khẩu";
             }
         }
 
@@ -147,7 +147,7 @@ namespace DACS2
         {
             if (txtSDT.Text == "")
             {
-                txtSDT.Text = "Số điện thoại";
+                txtSDT.Text = "Số Điện Thoại";
             }
         }
 
@@ -156,6 +156,14 @@ namespace DACS2
             if (txtE.Text == "")
             {
                 txtE.Text = "Email";
+            }
+        }
+
+        private void txtSDT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

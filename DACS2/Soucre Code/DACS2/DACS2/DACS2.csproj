@@ -98,10 +98,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DACS2DataSet11.Designer.cs">
+    <Compile Include="DACS2DataSet1.cs">
+      <DependentUpon>DACS2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DACS2DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DACS2DataSet11.xsd</DependentUpon>
+      <DependentUpon>DACS2DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="DAO\accountDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
@@ -128,6 +131,12 @@
     </Compile>
     <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDNQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDNQR.Designer.cs">
+      <DependentUpon>FormDNQR.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDoanhThu.cs">
       <SubType>Form</SubType>
@@ -215,6 +224,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLSHOPDataSet.cs">
+      <DependentUpon>QLSHOPDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLSHOPDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -232,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDNQR.resx">
+      <DependentUpon>FormDNQR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDoanhThu.resx">
       <DependentUpon>FormDoanhThu.cs</DependentUpon>
@@ -282,16 +297,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Report2.rdlc" />
     <EmbeddedResource Include="Report1.rdlc" />
-    <None Include="DACS2DataSet11.xsc">
-      <DependentUpon>DACS2DataSet11.xsd</DependentUpon>
+    <None Include="DACS2DataSet1.xsc">
+      <DependentUpon>DACS2DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="DACS2DataSet11.xsd">
+    <None Include="DACS2DataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DACS2DataSet11.Designer.cs</LastGenOutput>
+      <LastGenOutput>DACS2DataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DACS2DataSet11.xss">
-      <DependentUpon>DACS2DataSet11.xsd</DependentUpon>
+    <None Include="DACS2DataSet1.xss">
+      <DependentUpon>DACS2DataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

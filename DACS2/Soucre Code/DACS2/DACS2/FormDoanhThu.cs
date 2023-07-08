@@ -28,40 +28,43 @@ namespace DACS2
             LoadCbxTh();
             LoadCbxN();
             chartT();
+            TongThuNhap();
+            TongGiaNhap();
+            TongLN();
         }
 
         private void XulyDgvDT()
         {
             dgvDT.BorderStyle = BorderStyle.None;
-            dgvDT.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvDT.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvDT.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvDT.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvDT.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvDT.EnableHeadersVisualStyles = false;
             dgvDT.BorderStyle = BorderStyle.None;
 
-            dgvDT.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvDT.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvDT.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvDT.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvDT.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvDT.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvDT.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvDT.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvDT.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvDT.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvDT.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvDT.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvDT.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvDT.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvDT.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvDT.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvDT.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
             dgvDT.Columns[0].Visible = false;
-            dgvDT.Columns[1].HeaderText = "Tên sản phảm";
+            dgvDT.Columns[1].HeaderText = "Tên Sản Phảm";
             dgvDT.Columns[2].HeaderText = "Màu";
-            dgvDT.Columns[3].HeaderText = "Size";
-            dgvDT.Columns[4].HeaderText = "chất liệu";
-            dgvDT.Columns[5].HeaderText = "Ngày xuất";
-            dgvDT.Columns[6].HeaderText = "Thành tiền";
+            dgvDT.Columns[3].HeaderText = "Loại Tai Nghe";
+            dgvDT.Columns[4].HeaderText = "Thời Lượng Pin";
+            dgvDT.Columns[5].HeaderText = "Ngày Xuất";
+            dgvDT.Columns[6].HeaderText = "Thành Tiền";
         }
 
         private void loadDT()
         {
-            query = "select HOA_DON.MAHD, TENSP, MAU, SIZE, CHATLIEU, NGAYXUAT , THANHTIEN " +
+            query = "select HOA_DON.MAHD, TENSP, MAU, LOAITN, THOILUONGPIN, NGAYXUAT , THANHTIEN " +
                 "from HOA_DON, CHI_TIET_HOA_DON, SAN_PHAM " +
                 "where HOA_DON.MAHD = CHI_TIET_HOA_DON.MAHD and CHI_TIET_HOA_DON.MASP = SAN_PHAM.MASP";
 
@@ -103,7 +106,34 @@ namespace DACS2
                 thanhtien += int.Parse(dgvDT.Rows[i].Cells["THANHTIEN"].Value.ToString());
             txtTDT.Text = string.Format("{0:#,##0.##}", Int32.Parse(thanhtien.ToString())) + "  VNĐ";
         }
-
+        private void TongThuNhap()
+        {
+            query = "select sum(THANHTIEN) from CHI_TIET_HOA_DON";
+            if (DataProvider.Instance.ExecuteScalar(query) != null)
+            {
+                int num;
+                num = Convert.ToInt32(DataProvider.Instance.ExecuteScalar(query));
+                txtTT.Text = string.Format("{0:#,##0.##}", Int32.Parse(num.ToString()))+" VND";
+            }
+        }
+        private void TongGiaNhap()
+        {
+            query = "select sum(GIANHAP*SLN) from NHAP_HANG";
+            if (DataProvider.Instance.ExecuteScalar(query) != null)
+            {
+                int num;
+                num =  Convert.ToInt32(DataProvider.Instance.ExecuteScalar(query));
+                txtGN.Text = string.Format("{0:#,##0.##}", Int32.Parse(num.ToString()))+" VND";
+            }
+        }
+    
+        private void TongLN()
+        {
+            int ln;
+            query = "exec dbo.TINHLOINHUAN";
+            ln = Convert.ToInt32(DataProvider.Instance.ExecuteScalar(query));
+            txtLN.Text = string.Format("{0:#,##0.##}", Int32.Parse(ln.ToString()))+" VND";
+        }
         private void chartT()
         {
             query = string.Format("select SUM(THANHTIEN) as TONGTIEN, MONTH(NGAYXUAT) as THANG from CHI_TIET_HOA_DON, HOA_DON " +
@@ -113,7 +143,7 @@ namespace DACS2
             chart1.Series["DoanhThu"].XValueMember = "THANG";
             chart1.Series["DoanhThu"].YValueMembers = "TONGTIEN";
             chart1.Titles.Clear();
-            chart1.BackColor = Color.FromArgb(229, 221, 209);
+            chart1.BackColor = Color.FromArgb(255, 250, 250);
 
             chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false;
             chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
@@ -130,13 +160,14 @@ namespace DACS2
             chart1.Series["DoanhThu"].XValueMember = "NAM";
             chart1.Series["DoanhThu"].YValueMembers = "TONGTIEN";
             chart1.Titles.Clear();
-            chart1.BackColor = Color.FromArgb(229, 221, 209);
+            chart1.BackColor = Color.FromArgb(255, 250, 250);
 
             chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false;
             chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
             chart1.ChartAreas[0].AxisX.MinorGrid.Enabled = false;
             chart1.ChartAreas[0].AxisY.MinorGrid.Enabled = false;
         }
+
 
         private void cbxT_Click(object sender, EventArgs e)
         {
@@ -174,7 +205,7 @@ namespace DACS2
             }
             if (cbxNNT.Text != "")
             {
-                query = string.Format("select HOA_DON.MAHD, TENSP, MAU, SIZE, CHATLIEU, NGAYXUAT , THANHTIEN " +
+                query = string.Format("select HOA_DON.MAHD, TENSP, MAU, LOAITN, THOILUONGPIN, NGAYXUAT , THANHTIEN " +
                 "from HOA_DON, CHI_TIET_HOA_DON, SAN_PHAM " +
                 "where HOA_DON.MAHD = CHI_TIET_HOA_DON.MAHD and CHI_TIET_HOA_DON.MASP = SAN_PHAM.MASP and NGAYXUAT = '{0}'", cbxNNT.Text);
 
@@ -182,7 +213,7 @@ namespace DACS2
             }
             else
             {
-                query = string.Format("select HOA_DON.MAHD, TENSP, MAU, SIZE, CHATLIEU, NGAYXUAT , THANHTIEN " +
+                query = string.Format("select HOA_DON.MAHD, TENSP, MAU, LOAITN, THOILUONGPIN, NGAYXUAT , THANHTIEN " +
                "from HOA_DON, CHI_TIET_HOA_DON, SAN_PHAM " +
                "where HOA_DON.MAHD = CHI_TIET_HOA_DON.MAHD and CHI_TIET_HOA_DON.MASP = SAN_PHAM.MASP and month(NGAYXUAT) = '{0}'", cbxT.Text);
 

@@ -37,19 +37,19 @@ namespace DACS2
                 if (login(txtTDN.Text, txtMK.Text))
                 {
                     this.Hide();
-                    MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Đăng Nhập Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FormMain formMain = new FormMain();
                     formMain.Message = txtTDN.Text;
                     formMain.Show();
                 }
                 else
                 {
-                    MessageBox.Show("Đăng nhập thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Đăng Nhập Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch
             {
-                MessageBox.Show("Đăng nhập thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Đăng Nhập Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -67,7 +67,7 @@ namespace DACS2
 
         private void txtTDN_Click(object sender, EventArgs e)
         {
-            if (txtTDN.Text == "Tên đăng nhập")
+            if (txtTDN.Text == "Nhập Tên Đăng Nhập")
             {
                 txtTDN.Text = "";
             }
@@ -75,7 +75,7 @@ namespace DACS2
 
         private void txtMK_Click(object sender, EventArgs e)
         {
-            if (txtMK.Text == "Mật khẩu")
+            if (txtMK.Text == "Mật Khẩu")
             {
                 txtMK.Text = "";
             }
@@ -90,7 +90,7 @@ namespace DACS2
         {
             if (txtTDN.Text == "")
             {
-                txtTDN.Text = "Tên đăng nhập";
+                txtTDN.Text = "Nhập Tên Đăng Nhập";
             }
         }
 
@@ -98,8 +98,15 @@ namespace DACS2
         {
             if (txtMK.Text == "")
             {
-                txtMK.Text = "Mật khẩu";
+                txtMK.Text = "";
             }
+        }
+
+        private void btnQR_Click(object sender, EventArgs e)
+        {
+            FormDNQR formqr = new FormDNQR();
+            formqr.Show();
+            this.Hide();
         }
     }
 }

@@ -111,6 +111,10 @@ namespace DACS2
                 if (VideoCaptureDevice.IsRunning)
                     VideoCaptureDevice.Stop();
             }
+        }
+
+        private void cbxCMR_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

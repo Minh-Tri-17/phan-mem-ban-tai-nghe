@@ -30,7 +30,6 @@ namespace DACS2
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnKH = new System.Windows.Forms.Button();
             this.btnTK = new System.Windows.Forms.Button();
             this.btnNV = new System.Windows.Forms.Button();
@@ -42,8 +41,7 @@ namespace DACS2
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
             this.panel1.Controls.Add(this.btnKH);
             this.panel1.Controls.Add(this.btnTK);
             this.panel1.Controls.Add(this.btnNV);
@@ -52,29 +50,18 @@ namespace DACS2
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(959, 163);
+            this.panel1.Size = new System.Drawing.Size(1444, 149);
             this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.label1.Location = new System.Drawing.Point(469, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 31);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
             // 
             // btnKH
             // 
-            this.btnKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.btnKH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnKH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.btnKH.Location = new System.Drawing.Point(636, 78);
+            this.btnKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(171)))), ((int)(((byte)(152)))));
+            this.btnKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKH.ForeColor = System.Drawing.Color.White;
+            this.btnKH.Location = new System.Drawing.Point(12, 81);
             this.btnKH.Name = "btnKH";
-            this.btnKH.Size = new System.Drawing.Size(150, 35);
+            this.btnKH.Size = new System.Drawing.Size(270, 54);
             this.btnKH.TabIndex = 6;
             this.btnKH.Text = "KHÁCH HÀNG";
             this.btnKH.UseVisualStyleBackColor = false;
@@ -82,13 +69,13 @@ namespace DACS2
             // 
             // btnTK
             // 
-            this.btnTK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnTK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.btnTK.Location = new System.Drawing.Point(480, 78);
+            this.btnTK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(171)))), ((int)(((byte)(152)))));
+            this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTK.ForeColor = System.Drawing.Color.White;
+            this.btnTK.Location = new System.Drawing.Point(867, 81);
             this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(150, 35);
+            this.btnTK.Size = new System.Drawing.Size(275, 54);
             this.btnTK.TabIndex = 5;
             this.btnTK.Text = "TỒN KHO";
             this.btnTK.UseVisualStyleBackColor = false;
@@ -96,27 +83,27 @@ namespace DACS2
             // 
             // btnNV
             // 
-            this.btnNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.btnNV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNV.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.btnNV.Location = new System.Drawing.Point(324, 78);
+            this.btnNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(171)))), ((int)(((byte)(152)))));
+            this.btnNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNV.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNV.ForeColor = System.Drawing.Color.White;
+            this.btnNV.Location = new System.Drawing.Point(1157, 81);
             this.btnNV.Name = "btnNV";
-            this.btnNV.Size = new System.Drawing.Size(150, 35);
+            this.btnNV.Size = new System.Drawing.Size(275, 54);
             this.btnNV.TabIndex = 4;
-            this.btnNV.Text = "NHÂN VIÊN";
+            this.btnNV.Text = "CHẤM CÔNG";
             this.btnNV.UseVisualStyleBackColor = false;
             this.btnNV.Click += new System.EventHandler(this.btnNV_Click);
             // 
             // btnNH
             // 
-            this.btnNH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.btnNH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.btnNH.Location = new System.Drawing.Point(168, 78);
+            this.btnNH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(171)))), ((int)(((byte)(152)))));
+            this.btnNH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNH.ForeColor = System.Drawing.Color.White;
+            this.btnNH.Location = new System.Drawing.Point(581, 81);
             this.btnNH.Name = "btnNH";
-            this.btnNH.Size = new System.Drawing.Size(150, 35);
+            this.btnNH.Size = new System.Drawing.Size(270, 54);
             this.btnNH.TabIndex = 2;
             this.btnNH.Text = "NHẬP HÀNG";
             this.btnNH.UseVisualStyleBackColor = false;
@@ -124,13 +111,13 @@ namespace DACS2
             // 
             // btnBH
             // 
-            this.btnBH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(56)))), ((int)(((byte)(38)))));
-            this.btnBH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(204)))), ((int)(((byte)(188)))));
-            this.btnBH.Location = new System.Drawing.Point(12, 78);
+            this.btnBH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(171)))), ((int)(((byte)(152)))));
+            this.btnBH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBH.ForeColor = System.Drawing.Color.White;
+            this.btnBH.Location = new System.Drawing.Point(293, 81);
             this.btnBH.Name = "btnBH";
-            this.btnBH.Size = new System.Drawing.Size(150, 35);
+            this.btnBH.Size = new System.Drawing.Size(270, 54);
             this.btnBH.TabIndex = 1;
             this.btnBH.Text = "BÁN HÀNG";
             this.btnBH.UseVisualStyleBackColor = false;
@@ -138,18 +125,18 @@ namespace DACS2
             // 
             // panelBody
             // 
-            this.panelBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.panelBody.BackColor = System.Drawing.Color.White;
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBody.Location = new System.Drawing.Point(0, 163);
+            this.panelBody.Location = new System.Drawing.Point(0, 149);
             this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(959, 283);
+            this.panelBody.Size = new System.Drawing.Size(1444, 536);
             this.panelBody.TabIndex = 1;
             // 
             // FormQuanLy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 446);
+            this.ClientSize = new System.Drawing.Size(1444, 685);
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -157,7 +144,6 @@ namespace DACS2
             this.Text = "Quản lý";
             this.Load += new System.EventHandler(this.FormQuanLy_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -171,6 +157,5 @@ namespace DACS2
         private System.Windows.Forms.Button btnKH;
         private System.Windows.Forms.Button btnTK;
         private System.Windows.Forms.Panel panelBody;
-        private System.Windows.Forms.Label label1;
     }
 }

@@ -28,7 +28,7 @@ namespace DACS2
 
         private void buttonT_Click(object sender, EventArgs e)
         {
-            DialogResult h = MessageBox.Show("Thông báo", "Bạn có chắc muốn thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult h = MessageBox.Show("Thông Báo", "Bạn Có Chắc Muốn Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (h == DialogResult.OK)
             {
                 this.Close();
@@ -46,26 +46,26 @@ namespace DACS2
             
                 try
                 {
-                    if (txtTDN.Text != "Tên đăng nhập" && txtSDT.Text != "Số điện thoại" && !CheckAccount(txtMKM.Text) && txtE.Text != "Email")
+                    if (txtTDN.Text != "Tên Đăng Nhập" && txtSDT.Text != "Số Điện Thoại" && !CheckAccount(txtMKM.Text) && txtE.Text != "Email")
                     {
                         DataProvider.Instance.ExecuteNonQuery(query);
-                        MessageBox.Show("Đổi mật khẩu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Đổi Mật Khẩu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Close();
                     }
                     else
                     {
-                        MessageBox.Show("Đổi mật khẩu thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Đổi Mật Khẩu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
                 catch
                 {
-                    MessageBox.Show("Đổi mật khẩu thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Đổi Mật Khẩu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
         }
 
         private void txtTDN_Click(object sender, EventArgs e)
         {
-            if(txtTDN.Text == "Tên đăng nhập")
+            if(txtTDN.Text == "Tên Đăng Nhập")
             {
                 txtTDN.Text = "";
             }
@@ -73,7 +73,7 @@ namespace DACS2
 
         private void txtSDT_Click(object sender, EventArgs e)
         {
-            if(txtSDT.Text == "Số điện thoại")
+            if(txtSDT.Text == "Số Điện Thoại")
             {
                 txtSDT.Text = "";
             }
@@ -89,7 +89,7 @@ namespace DACS2
 
         private void txtMKM_Click(object sender, EventArgs e)
         {
-            if(txtMKM.Text == "Mật khẩu mới")
+            if(txtMKM.Text == "Mật Khẩu Mới")
             {
                 txtMKM.Text = "";
             }
@@ -99,7 +99,7 @@ namespace DACS2
         {
             if (txtTDN.Text == "")
             {
-                txtTDN.Text = "Tên đăng nhập";
+                txtTDN.Text = "Tên Đăng Nhập";
             }
         }
 
@@ -107,7 +107,7 @@ namespace DACS2
         {
             if (txtSDT.Text == "")
             {
-                txtSDT.Text = "Số điện thoại";
+                txtSDT.Text = "Số Điện Thoại";
             }
         }
 
@@ -123,7 +123,15 @@ namespace DACS2
         {
             if (txtMKM.Text == "")
             {
-                txtMKM.Text = "Mật khẩu mới";
+                txtMKM.Text = "Mật Khẩu Mới";
+            }
+        }
+
+        private void txtSDT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

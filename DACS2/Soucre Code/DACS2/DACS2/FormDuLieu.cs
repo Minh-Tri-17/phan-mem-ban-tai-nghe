@@ -35,32 +35,34 @@ namespace DACS2
         private void XulyDgvSP()
         {
             dgvSP.BorderStyle = BorderStyle.None;
-            dgvSP.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvSP.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvSP.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvSP.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvSP.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvSP.EnableHeadersVisualStyles = false;
             dgvSP.BorderStyle = BorderStyle.None;
 
-            dgvSP.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvSP.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvSP.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvSP.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvSP.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvSP.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvSP.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvSP.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvSP.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvSP.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvSP.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvSP.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvSP.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvSP.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvSP.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvSP.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvSP.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvSP.Columns[0].HeaderText = "Mã sản phẩm";
-            dgvSP.Columns[1].HeaderText = "Tên sản phẩm";
+            dgvSP.Columns[0].HeaderText = "Mã Sản Phẩm";
+            dgvSP.Columns[1].HeaderText = "Tên Sản Phẩm";
             dgvSP.Columns[1].Width = 300;
             dgvSP.Columns[2].HeaderText = "Màu";
-            dgvSP.Columns[3].HeaderText = "Size";
-            dgvSP.Columns[4].HeaderText = "Chất liệu";
+            dgvSP.Columns[3].HeaderText = "Loại Tai Nghe";
+            dgvSP.Columns[4].HeaderText = "Thời Lượng Pin";
             dgvSP.Columns[5].HeaderText = "Giá";
             dgvSP.Columns[6].Visible = false;
             dgvSP.Columns[7].Visible = false;
+            dgvSP.Columns[8].HeaderText = "Mã Thương Hiệu";
+            dgvSP.Columns[9].HeaderText = "Mã Giảm Giá";
         }
 
         private void LoadSP()
@@ -85,25 +87,25 @@ namespace DACS2
         private void XulyDgvTH()
         {
             dgvTH.BorderStyle = BorderStyle.None;
-            dgvTH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvTH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvTH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvTH.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvTH.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvTH.EnableHeadersVisualStyles = false;
             dgvTH.BorderStyle = BorderStyle.None;
 
-            dgvTH.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvTH.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvTH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvTH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvTH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvTH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvTH.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvTH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvTH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvTH.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvTH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvTH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvTH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvTH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvTH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvTH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvTH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvTH.Columns[0].HeaderText = "Mã thương hiệu";
-            dgvTH.Columns[1].HeaderText = "Tên thương hiệu";
+            dgvTH.Columns[0].HeaderText = "Mã Thương Hiệu";
+            dgvTH.Columns[1].HeaderText = "Tên Thương Hiệu";
         }
 
         private void LoadTH()
@@ -122,7 +124,7 @@ namespace DACS2
         private void XulyDgvGG()
         {
             dgvGG.BorderStyle = BorderStyle.None;
-            dgvGG.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvGG.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvGG.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvGG.EnableHeadersVisualStyles = false;
             dgvGG.DefaultCellStyle.Font = new Font("Times New Roman", 12);
@@ -130,18 +132,18 @@ namespace DACS2
             dgvGG.EnableHeadersVisualStyles = false;
             dgvGG.BorderStyle = BorderStyle.None;
 
-            dgvGG.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvGG.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvGG.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvGG.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvGG.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvGG.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvGG.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvGG.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvGG.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvGG.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvGG.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvGG.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvGG.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvGG.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvGG.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvGG.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvGG.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvGG.Columns[0].HeaderText = "Mã giảm giá";
-            dgvGG.Columns[1].HeaderText = "Số giảm giá";
+            dgvGG.Columns[0].HeaderText = "Mã Giảm Giá";
+            dgvGG.Columns[1].HeaderText = "Mã Giảm Giá (%)";
         }
 
         private void LoadGG()
@@ -165,12 +167,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Thêm sản phẩm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thêm Sản Phẩm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Thêm sản phẩm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Thêm Sản Phẩm Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -181,29 +183,29 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Xóa sản phẩm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Sản Phẩm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Xóa sản phẩm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Sản Phẩm Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void btnUSP_Click(object sender, EventArgs e)
         {
-            query = string.Format("update SAN_PHAM set TENSP = '{0}', MAU = '{1}', SIZE = '{2}', CHATLIEU = '{3}', GIA = {4}, MATH = {5}, MAGG = {6} where MASP = {7}",
-                txtTSP.Text, cbxM.Text, cbxS.Text, cbxCL.Text, txtG.Text, txtTH.Text, txtGG.Text, Int16.Parse(txtTSP.Text));
+            query = string.Format("update SAN_PHAM set TENSP = '{0}', MAU = '{1}', LOAITN = '{2}', THOILUONGPIN = '{3}', GIA = {4}, MATH = {5}, MAGG = {6} where MASP = {7}",
+                txtTSP.Text, cbxM.Text, cbxS.Text, cbxCL.Text, txtG.Text, txtTH.Text, txtGG.Text, Int32.Parse(txtMSP.Text));
 
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Sửa sản phẩm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Sản Phẩm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Sửa sản phẩm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Sửa Sản Phẩm Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -214,12 +216,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Thêm thương hiệu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thêm Thương Hiệu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Thêm thương hiệu thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Thêm Thương Hiệu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -230,12 +232,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Xóa thương hiệu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Thương Hiệu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Xóa thương hiệu thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Thương Hiệu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -246,12 +248,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Thêm giảm giá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thêm Giảm Giá Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Thêm giảm giá thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Thêm Giảm Giá Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -262,12 +264,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Xóa giảm giá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Giảm Giá Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Xóa giảm giá thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Giảm Giá Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -279,12 +281,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Sửa thương hiệu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Thương Hiệu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Sửa thương hiệu thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Sửa Thương Hiệu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -296,12 +298,12 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Sửa giảm giá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Giảm Giá Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormDuLieu_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Sửa giảm giá thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Sửa Giảm Giá Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -320,7 +322,7 @@ namespace DACS2
 
         private void btnL_Click(object sender, EventArgs e)
         {
-            query = string.Format("select * from SAN_PHAM where CHATLIEU = '{0}' or SIZE = '{1}' or MAU = '{2}'",
+            query = string.Format("select * from SAN_PHAM where THOILUONGPIN = '{0}' or LOAITN = '{1}' or MAU = '{2}'",
                 cbxCL.Text, cbxS.Text, cbxM.Text);
 
             dgvSP.DataSource = DataProvider.Instance.ExecuteQuery(query);
@@ -341,18 +343,18 @@ namespace DACS2
 
         private void LoadCbxS()
         {
-            query = "select distinct SIZE from SAN_PHAM";
+            query = "select distinct LOAITN from SAN_PHAM";
 
             cbxS.DataSource = DataProvider.Instance.ExecuteQuery(query);
-            cbxS.DisplayMember = "SIZE";
+            cbxS.DisplayMember = "LOAITN";
         }
 
         private void LoaCbxCL()
         {
-            query = "select distinct CHATLIEU from SAN_PHAM";
+            query = "select distinct THOILUONGPIN from SAN_PHAM";
 
             cbxCL.DataSource = DataProvider.Instance.ExecuteQuery(query);
-            cbxCL.DisplayMember = "CHATLIEU";
+            cbxCL.DisplayMember = "THOILUONGPIN";
         }
     }
 }

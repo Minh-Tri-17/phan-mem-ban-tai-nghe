@@ -63,7 +63,7 @@ namespace DACS2
 
         private void btnT_Click(object sender, EventArgs e)
         {
-            DialogResult h = MessageBox.Show("Thông báo", "Bạn có chắc muốn thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult h = MessageBox.Show("Thông Báo", "Bạn Có Chắc Muốn Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (h == DialogResult.OK)
             {
                 Application.Exit();
@@ -84,10 +84,14 @@ namespace DACS2
 
         private void btnDT_Click(object sender, EventArgs e)
         {
-           if(CHECKQUYEN() == true)
+            if (CHECKQUYEN() == true)
             {
                 OpenChildForm(new FormDoanhThu());
                 labelName.Text = btnDT.Text;
+            }
+            else if (CHECKQUYEN() == false)
+            {
+                MessageBox.Show("Hãy Đăng Nhập Dưới Quyền Quản Trị Viên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -114,6 +118,11 @@ namespace DACS2
             this.Close();
             FormDangNhap formDangNhap = new FormDangNhap();
             formDangNhap.Show();
+        }
+
+        private void lbTDN_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

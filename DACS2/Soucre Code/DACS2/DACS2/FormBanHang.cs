@@ -56,36 +56,36 @@ namespace DACS2
         private void XulyDgvBH()
         {
             dgvBH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvBH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvBH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvBH.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvBH.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvBH.EnableHeadersVisualStyles = false;
             dgvBH.BorderStyle = BorderStyle.None;
 
-            dgvBH.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvBH.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvBH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvBH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvBH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvBH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvBH.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvBH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvBH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvBH.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvBH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvBH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvBH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvBH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvBH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvBH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvBH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvBH.Columns[0].HeaderText = "Mã bán hàng";
-            dgvBH.Columns[1].HeaderText = "Tên sản phẩm";
+            dgvBH.Columns[0].HeaderText = "Mã Bán Hàng";
+            dgvBH.Columns[1].HeaderText = "Tên Sản Phẩm";
             dgvBH.Columns[1].Width = 300;
             dgvBH.Columns[2].HeaderText = "Màu";
-            dgvBH.Columns[3].HeaderText = "Size";
+            dgvBH.Columns[3].HeaderText = "Loại Tai Nghe";
             dgvBH.Columns[4].HeaderText = "Giá";
-            dgvBH.Columns[5].HeaderText = "Giảm giá";
-            dgvBH.Columns[6].HeaderText = "Số lượng";
-            dgvBH.Columns[7].HeaderText = "Thành tiền";
+            dgvBH.Columns[5].HeaderText = "Mã Giảm Giá (%)";
+            dgvBH.Columns[6].HeaderText = "Số Lượng";
+            dgvBH.Columns[7].HeaderText = "Thành Tiền";
         }
 
         private void LoadBH()
         {
-            query = "select MABH, TENSP, MAU, SIZE, GIA, SOGG, SOLUONG, THANHTIEN from BAN_HANG, SAN_PHAM, GIAM_GIA where BAN_HANG.MASP = SAN_PHAM.MASP and GIAM_GIA.MAGG = SAN_PHAM.MAGG";
+            query = "select MABH, TENSP, MAU, LOAITN, GIA, SOGG, SOLUONG, THANHTIEN from BAN_HANG, SAN_PHAM, GIAM_GIA where BAN_HANG.MASP = SAN_PHAM.MASP and GIAM_GIA.MAGG = SAN_PHAM.MAGG";
 
             dgvBH.DataSource = DataProvider.Instance.ExecuteQuery(query);
             XulyDgvBH();
@@ -104,17 +104,17 @@ namespace DACS2
                 try
                 {
                     DataProvider.Instance.ExecuteNonQuery(query);
-                    MessageBox.Show("Xóa sản phẩm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Xóa Sản Phẩm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FormBanHang_Load(sender, e);
                 }
                 catch
                 {
-                    MessageBox.Show("Xóa sản phẩm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Xóa Sản Phẩm Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Xóa sản phẩm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Sản Phẩm Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -124,7 +124,7 @@ namespace DACS2
             {
                 if (txtSL.Text == "")
                 {
-                    MessageBox.Show("Vui lòng nhập nhập số lượng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui Lòng Nhập Số Lượng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
@@ -137,7 +137,7 @@ namespace DACS2
             }
             catch
             {
-                MessageBox.Show("Vui lòng nhập nhập số lượng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Vui Lòng Nhập Số Lượng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -151,7 +151,7 @@ namespace DACS2
             }
             else
             {
-                MessageBox.Show("Lỗi mã vạch", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lỗi Mã Vạch", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             FormBanHang_Load(sender, e);
         }
@@ -180,6 +180,7 @@ namespace DACS2
                     txtMSP.Text = result.ToString();
                 }));
             }
+            pictureBox1.Image = bitmap;
         }
 
         private void XoaBanHang()
@@ -231,18 +232,18 @@ namespace DACS2
 
                         DataProvider.Instance.ExecuteNonQuery(query3);
                     }
-                    MessageBox.Show("Thanh toán thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thanh Toán Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     XoaBanHang();
                     txtMBH.Clear();
                 }
                 catch
                 {
-                    MessageBox.Show("Thanh toán thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Thanh Toán Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Thanh toán thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Thanh Toán Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                
             }
             

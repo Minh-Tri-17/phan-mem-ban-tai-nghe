@@ -29,35 +29,35 @@ namespace DACS2
 
         private void XulyDgvK()
         {
-            dgvK.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvK.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvK.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvK.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvK.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvK.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvK.EnableHeadersVisualStyles = false;
             dgvK.BorderStyle = BorderStyle.None;
 
-            dgvK.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvK.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvK.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvK.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvK.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvK.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvK.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvK.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvK.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvK.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvK.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvK.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvK.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvK.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvK.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvK.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvK.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvK.Columns[0].HeaderText = "Mã sản phẩm";
-            dgvK.Columns[1].HeaderText = "Tên sản phẩm";
+            dgvK.Columns[0].HeaderText = "Mã Sản Phẩm";
+            dgvK.Columns[1].HeaderText = "Tên Sản Phẩm";
             dgvK.Columns[2].HeaderText = "Màu";
-            dgvK.Columns[3].HeaderText = "Size";
-            dgvK.Columns[4].HeaderText = "Số lượng tồn";
-            dgvK.Columns[5].HeaderText = "Tình trạng";
+            dgvK.Columns[3].HeaderText = "Loại Tai Nghe";
+            dgvK.Columns[4].HeaderText = "Số Lượng Tồn";
+            dgvK.Columns[5].HeaderText = "Tình Trạng";
 
         }
 
         private void LoadK()
         {
-            query = "select MASP, TENSP, MAU, SIZE, SLTON, TINHTRANG from SAN_PHAM";
+            query = "select MASP, TENSP, MAU, LOAITN, SLTON, TINHTRANG from SAN_PHAM";
             
             dgvK.DataSource = DataProvider.Instance.ExecuteQuery(query);
             XulyDgvK();

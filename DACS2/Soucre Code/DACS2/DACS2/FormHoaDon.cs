@@ -39,31 +39,31 @@ namespace DACS2
 
         private void XulyDgvK()
         {
-            dgvHD.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvHD.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvHD.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvHD.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvHD.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvHD.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvHD.EnableHeadersVisualStyles = false;
             dgvHD.BorderStyle = BorderStyle.None;
 
-            dgvHD.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvHD.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvHD.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvHD.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvHD.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvHD.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvHD.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvHD.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvHD.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvHD.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvHD.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvHD.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvHD.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvHD.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvHD.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvHD.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvHD.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
-            dgvHD.Columns[0].HeaderText = "Tên sản phẩm";
-            dgvHD.Columns[1].HeaderText = "Chất liệu";
+            dgvHD.Columns[0].HeaderText = "Tên Sản Phẩm";
+            dgvHD.Columns[1].HeaderText = "Loại Tai Nghe";
             dgvHD.Columns[2].HeaderText = "Màu";
-            dgvHD.Columns[3].HeaderText = "Size";
-            dgvHD.Columns[4].HeaderText = "Số lượng";
+            dgvHD.Columns[3].HeaderText = "Thời Lượng Pin";
+            dgvHD.Columns[4].HeaderText = "Số Lượng";
             dgvHD.Columns[5].HeaderText = "Giá";
-            dgvHD.Columns[6].HeaderText = "Giảm giá";
-            dgvHD.Columns[7].HeaderText = "Thành tiền";
+            dgvHD.Columns[6].HeaderText = "Mã Giảm Giá (%)";
+            dgvHD.Columns[7].HeaderText = "Thành Tiền";
         }
 
         private void LoadHD()
@@ -76,7 +76,7 @@ namespace DACS2
             XulyDgvK();
 
             txtCL.DataBindings.Clear();
-            txtCL.DataBindings.Add("Text", dgvHD.DataSource, "CHATLIEU");
+            txtCL.DataBindings.Add("Text", dgvHD.DataSource, "THOILUONGPIN");
             txtG.DataBindings.Clear();
             txtG.DataBindings.Add("Text", dgvHD.DataSource, "GIA");
             txtM.DataBindings.Clear();
@@ -84,7 +84,7 @@ namespace DACS2
             txtTSP.DataBindings.Clear();
             txtTSP.DataBindings.Add("Text", dgvHD.DataSource, "TENSP");
             txtS.DataBindings.Clear();
-            txtS.DataBindings.Add("Text", dgvHD.DataSource, "SIZE");
+            txtS.DataBindings.Add("Text", dgvHD.DataSource, "LOAITN");
             txtSOGG.DataBindings.Clear();
             txtSOGG.DataBindings.Add("Text", dgvHD.DataSource, "SOGG");
 
@@ -132,37 +132,39 @@ namespace DACS2
                     try
                     {
                         DataProvider.Instance.ExecuteQuery(query);
-                        MessageBox.Show("Thêm thông tin thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Thêm Thông Tin Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LoadHD();
                     }
                     catch
                     {
-                        MessageBox.Show("Thêm thông tin thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Thêm Thông Tin Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     LoadHD();
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng nhập số điện thoại khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui Lòng Nhập Số Điện Thoại Khách Hàng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch
             {
-                MessageBox.Show("Khách hàng mới", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Khách Hàng Mới", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
            
         }
 
         private void btnKT_Click(object sender, EventArgs e)
         {
-            query = string.Format("select TENSP, CHATLIEU, MAU, SIZE, SOLUONG, GIA, SOGG, THANHTIEN, TENKH, DIACHI, TENNV " +
+            query = string.Format("select TENSP, THOILUONGPIN, MAU, LOAITN, SOLUONG, GIA, SOGG, THANHTIEN, TENKH, DIACHI, TENNV " +
                 "from HOA_DON, SAN_PHAM, GIAM_GIA, CHI_TIET_HOA_DON, KHACH_HANG, NHAN_VIEN " +
                 "where HOA_DON.MAHD = CHI_TIET_HOA_DON.MAHD and SAN_PHAM.MASP = CHI_TIET_HOA_DON.MASP and GIAM_GIA.MAGG = SAN_PHAM.MAGG " +
                 "and KHACH_HANG.MAKH = HOA_DON.MAKH and NHAN_VIEN.MANV = HOA_DON.MANV and HOA_DON.MAHD = {0}",Int32.Parse(txtMHD.Text));
 
             dgvHD.DataSource = DataProvider.Instance.ExecuteQuery(query);
             XulyDgvK();
-
+            dgvHD.Columns[8].HeaderText = "Tên Khách Hàng";
+            dgvHD.Columns[9].HeaderText = "Địa Chỉ";
+            dgvHD.Columns[10].HeaderText = "Tên Nhân Viên";
             txtDC.DataBindings.Clear();
             txtDC.DataBindings.Add("Text", dgvHD.DataSource, "DIACHI");
         }

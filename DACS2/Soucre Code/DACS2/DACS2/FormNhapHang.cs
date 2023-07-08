@@ -30,31 +30,31 @@ namespace DACS2
 
         private void XulyDgvNH()
         {
-            dgvNH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvNH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvNH.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvNH.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvNH.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvNH.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvNH.EnableHeadersVisualStyles = false;
             dgvNH.BorderStyle = BorderStyle.None;
 
-            dgvNH.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvNH.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvNH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvNH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvNH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvNH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvNH.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvNH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvNH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvNH.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvNH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvNH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvNH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvNH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
             dgvNH.Columns[0].Visible = false;
             dgvNH.Columns[1].Visible = false;
-            dgvNH.Columns[2].HeaderText = "Nguồn nhập";
-            dgvNH.Columns[3].HeaderText = "Ngày nhập";
-            dgvNH.Columns[4].HeaderText = "Giá nhập";
-            dgvNH.Columns[5].HeaderText = "Nhân viên";
-            dgvNH.Columns[6].HeaderText = "Mã sản phẩm";
-            dgvNH.Columns[7].HeaderText = "Số lượng nhập";
+            dgvNH.Columns[2].HeaderText = "Nguồn Nhập";
+            dgvNH.Columns[3].HeaderText = "Ngày Nhập";
+            dgvNH.Columns[4].HeaderText = "Giá Nhập";
+            dgvNH.Columns[5].HeaderText = "Nhân Viên";
+            dgvNH.Columns[6].HeaderText = "Mã Sản Phẩm";
+            dgvNH.Columns[7].HeaderText = "Số Lượng Nhập";
             dgvNH.Columns[8].HeaderText = "Tình Trạng";
         }
 
@@ -108,17 +108,17 @@ namespace DACS2
         {
             string a = DateTime.Today.ToString().Trim();
             query = string.Format("insert into NHAP_HANG values('{0}','{1}',{2},{3},{4},{5},N'{6}')",
-                cbxSNgN.Text, a, Int32.Parse(txtGN.Text), Int32.Parse(txtMNV.Text), Int32.Parse(txtSLN.Text), Int32.Parse(txtMASP.Text), "Chưa cập nhật số lượng");
+                cbxSNgN.Text, a, Int64.Parse(txtGN.Text), Int32.Parse(txtMNV.Text), Int32.Parse(txtSLN.Text), Int32.Parse(txtMASP.Text), "Chưa cập nhật số lượng");
 
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Thêm nhập hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thêm Nhập Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormNhapHang_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Thêm nhập hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Thêm Nhập Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -129,29 +129,29 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Xóa nhập hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Nhập Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormNhapHang_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Xóa nhập hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Xóa Nhập Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btxS_Click(object sender, EventArgs e)
         {
             query = string.Format("update NHAP_HANG set NGUONNHAP = '{0}', GIANHAP = {1}, MANV = {2}, MASP = {3} where MANH = {4}",
-               cbxSNgN.Text, txtGN.Text, Int16.Parse(txtMNV.Text), Int16.Parse(txtMASP.Text), Int16.Parse(txtMNH.Text));
+               cbxSNgN.Text, txtGN.Text, Int32.Parse(txtMNV.Text), Int32.Parse(txtMASP.Text), Int32.Parse(txtMNH.Text));
 
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Sửa nhập hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Nhập Hàng Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FormNhapHang_Load(sender, e);
             }
             catch
             {
-                MessageBox.Show("Sửa nhập hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sửa Nhập Hàng Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -178,7 +178,7 @@ namespace DACS2
                 string query3 = string.Format("update NHAP_HANG set TINHTRANG = N'Đã cập nhật số lượng' where MANH = {0}", Int32.Parse(txtMNH.Text));
                 DataProvider.Instance.ExecuteNonQuery(query2);
                 DataProvider.Instance.ExecuteNonQuery(query3);
-                MessageBox.Show("Nhập kho thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Nhập Kho Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             LoadNH();
         }

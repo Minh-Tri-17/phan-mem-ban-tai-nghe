@@ -29,7 +29,7 @@ namespace DACS2
             chart1.Series["Doanh Thu"].XValueMember = "NGAY";
             chart1.Series["Doanh Thu"].YValueMembers = "TONGTIEN";
             chart1.Titles.Clear();
-            chart1.BackColor = Color.FromArgb(229, 221, 209);
+            chart1.BackColor = Color.FromArgb(200, 216, 228);
 
             chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
             chart1.ChartAreas[0].AxisY.MinorGrid.Enabled = false;
@@ -43,7 +43,7 @@ namespace DACS2
             chart2.Series["Thang"].XValueMember = "THANG";
             chart2.Series["Thang"].YValueMembers = "TONGTIEN";
             chart2.Titles.Clear();
-            chart2.BackColor = Color.FromArgb(229, 221, 209);
+            chart2.BackColor = Color.FromArgb(200, 216, 228);
             chart2.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
 
             chart2.ChartAreas[0].AxisY.MajorGrid.Enabled = false;

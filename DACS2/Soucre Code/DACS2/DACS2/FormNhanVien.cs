@@ -30,30 +30,30 @@ namespace DACS2
 
         private void XulyDgvNV()
         {
-            dgvNV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvNV.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvNV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvNV.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;
             dgvNV.DefaultCellStyle.Font = new Font("Times New Roman", 12);
             dgvNV.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 15);
             dgvNV.EnableHeadersVisualStyles = false;
             dgvNV.BorderStyle = BorderStyle.None;
 
-            dgvNV.BackgroundColor = Color.FromArgb(229, 221, 209);
+            dgvNV.BackgroundColor = Color.FromArgb(255, 250, 250);
             dgvNV.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgvNV.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
-            dgvNV.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvNV.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(147, 128, 105);
-            dgvNV.DefaultCellStyle.BackColor = Color.FromArgb(229, 221, 209);
-            dgvNV.DefaultCellStyle.SelectionForeColor = Color.FromArgb(211, 204, 188);
-            dgvNV.DefaultCellStyle.SelectionBackColor = Color.FromArgb(68, 56, 38);
-            dgvNV.DefaultCellStyle.ForeColor = Color.FromArgb(68, 56, 38);
+            dgvNV.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
+            dgvNV.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNV.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNV.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
+            dgvNV.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvNV.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
+            dgvNV.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
             dgvNV.Columns[0].Visible = false;
-            dgvNV.Columns[1].HeaderText = "Tên nhân viên";
-            dgvNV.Columns[2].HeaderText = "Số điện thoại";
-            dgvNV.Columns[3].HeaderText = "Chức vụ";
-            dgvNV.Columns[4].HeaderText = "Số ngày làm";
-            dgvNV.Columns[5].HeaderText = "Hệ số lương";
-            dgvNV.Columns[6].HeaderText = "Tổng lương";
+            dgvNV.Columns[1].HeaderText = "Tên Nhân Viên";
+            dgvNV.Columns[2].HeaderText = "Số Điện Thoại";
+            dgvNV.Columns[3].HeaderText = "Chức Vụ";
+            dgvNV.Columns[4].HeaderText = "Số Ngày Làm";
+            dgvNV.Columns[5].HeaderText = "Hệ Số Lương";
+            dgvNV.Columns[6].HeaderText = "Tổng Lương";
         }
 
         private void TinhTong()
@@ -120,22 +120,22 @@ namespace DACS2
             int a = Int32.Parse(DataProvider.Instance.ExecuteScalar(query).ToString());
             if (a == 1)
             {
-                MessageBox.Show("Nhân viên đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Nhân Viên Đã Tồn Tại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else if(a == 0)
             {
-              string  query1 = string.Format("insert into NHAN_VIEN(TENNV, SDT, CHUCVU, HSL) values(N'{0}',{1} ,N'{2}',{3})",
-              txtTNV.Text, Int32.Parse(txtSDT.Text), txtCV.Text, Int32.Parse(txtHSL.Text));
+              string  query1 = string.Format("insert into NHAN_VIEN(TENNV, SDT, CHUCVU, HSL) values(N'{0}',N'{1}' ,N'{2}',{3})",
+              txtTNV.Text, txtSDT.Text, txtCV.Text, Int32.Parse(txtHSL.Text));
 
                 try
                 {
                     DataProvider.Instance.ExecuteNonQuery(query1);
-                    MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thêm Nhân Viên Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LoadNV();
                 }
                 catch
                 {
-                    MessageBox.Show("Thêm nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Thêm Nhân Viên Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }
@@ -154,17 +154,17 @@ namespace DACS2
 
         private void btnX_Click(object sender, EventArgs e)
         {
-            query = string.Format("delete from NHAN_VIEN where MANV = {0}", Int16.Parse(txtMNV.Text));
+            query = string.Format("delete from NHAN_VIEN where MANV = {0}", Int32.Parse(txtMNV.Text));
             
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Xóa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Xóa Nhân Viên Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadNV();
             }
             catch
             {
-                MessageBox.Show("Xóa nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Xóa Nhân Viên Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -176,13 +176,13 @@ namespace DACS2
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query);
-                MessageBox.Show("Sửa nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sửa Nhân Viên Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadNV();
                 TinhTong();
             }
             catch
             {
-                MessageBox.Show("Sửa nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Sửa Nhân Viên Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -223,6 +223,7 @@ namespace DACS2
             VideoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cmbCR.SelectedIndex].MonikerString);
             VideoCaptureDevice.NewFrame += VideoCaptureDevice_NewFrame;
             VideoCaptureDevice.Start();
+            ;
         }
 
         private void VideoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
@@ -237,6 +238,7 @@ namespace DACS2
                     txtNVFT.Text = result.ToString();
                 }));
             }
+            pictureBox1.Image = bitmap;
         }
 
         private void FormNhanVien_FormClosing(object sender, FormClosingEventArgs e)
@@ -256,6 +258,14 @@ namespace DACS2
                     VideoCaptureDevice.Stop();
             }
             txtNVFT.Clear();
+        }
+
+        private void txtSDT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
