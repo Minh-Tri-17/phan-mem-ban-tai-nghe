@@ -128,11 +128,20 @@ namespace DACS2
                 }
                 else
                 {
-                    string query2 = string.Format("exec dbo.THEMSOLUONG @masp = {0}, @sl = {1}", txtMSP.Text, txtSL.Text);
+                    string query1 = string.Format("select SLTON from SAN_PHAM where MASP = {0}", txtMSP.Text);
+                    int slton = Convert.ToInt32(DataProvider.Instance.ExecuteScalar(query1));
 
-                    DataProvider.Instance.ExecuteNonQuery(query2);
-                    txtSL.Text = "";
-                    LoadBH();
+                    if (slton > Int32.Parse(txtSL.Text))
+                    {
+                        string query2 = string.Format("exec dbo.THEMSOLUONG @masp = {0}, @sl = {1}", txtMSP.Text, txtSL.Text);
+                        DataProvider.Instance.ExecuteNonQuery(query2);
+                        txtSL.Text = "";
+                        LoadBH();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Số lượng quá giới hạn", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
             }
             catch

@@ -1,232 +1,104 @@
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DACS2.csproj.AssemblyReference.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormBanHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormCaiDat.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormDangKy.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormDangNhap.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormDNQR.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormDoanhThu.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormDuLieu.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormInHoaDon.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormInNhapHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormKhachHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormKho.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormHoaDon.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormMaVach.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormNhanVien.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormNhapHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormQuanLy.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormQuenMatKhau.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormMain.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DoAnThucTap.FormTongQuat.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DACS2.Properties.Resources.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DACS2.csproj.GenerateResource.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\RdlCompile.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\RdlCompile.compiled
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DoAnThucTap\obj\Debug\DACS2.csproj.CoreCompileInputs.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe.config
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.pdb
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\QRCoder.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Zen.Barcode.Core.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zxing.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\EnvDTE.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\stdole.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.MSXML.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zxing.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.xml
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.AssemblyReference.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormBanHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormCaiDat.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangKy.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangNhap.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDNQR.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDoanhThu.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDuLieu.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInHoaDon.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInNhapHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKhachHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKho.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormHoaDon.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMaVach.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhanVien.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhapHang.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuanLy.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuenMatKhau.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMain.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormTongQuat.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.Properties.Resources.resources
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.GenerateResource.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.compiled
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.CoreCompileInputs.cache
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.exe
-C:\Users\Admin\OneDrive\Documents\VoMinhNghia_190395_BaoCaoThucTap\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.pdb
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe.config
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.pdb
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\QRCoder.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Zen.Barcode.Core.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zxing.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\EnvDTE.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\stdole.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.MSXML.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zxing.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.xml
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.AssemblyReference.cache
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormBanHang.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormCaiDat.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangKy.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangNhap.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDNQR.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDoanhThu.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDuLieu.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInHoaDon.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInNhapHang.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKhachHang.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKho.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormHoaDon.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMaVach.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhanVien.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhapHang.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuanLy.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuenMatKhau.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMain.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormTongQuat.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.Properties.Resources.resources
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.GenerateResource.cache
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.cache
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.compiled
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.CoreCompileInputs.cache
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.CopyComplete
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.exe
-C:\Users\minht\Documents\Zalo Received Files\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.pdb
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe.config
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.exe
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\DACS2.pdb
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\QRCoder.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zxing.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\EnvDTE.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\stdole.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Microsoft.MSXML.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\Spire.Barcode.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zxing.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zxing.presentation.xml
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.AssemblyReference.cache
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormBanHang.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormCaiDat.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangKy.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDangNhap.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDNQR.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDoanhThu.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormDuLieu.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInHoaDon.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormInNhapHang.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKhachHang.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormKho.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormHoaDon.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMaVach.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhanVien.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormNhapHang.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuanLy.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormQuenMatKhau.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormMain.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.FormTongQuat.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.Properties.Resources.resources
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.GenerateResource.cache
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.cache
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\RdlCompile.compiled
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.CoreCompileInputs.cache
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.csproj.CopyComplete
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.exe
+C:\Users\minht\Documents\Zalo Received Files\DACS2\Soucre Code\DACS2\DACS2\obj\Debug\DACS2.pdb

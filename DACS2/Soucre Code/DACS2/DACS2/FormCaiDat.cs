@@ -21,6 +21,10 @@ namespace DACS2
 
         private void OpenChildForm(Form ChildForm)
         {
+            if (CurrentFormchild != null)
+            {
+                CurrentFormchild.Close();
+            }
             CurrentFormchild = ChildForm;
             ChildForm.TopLevel = false;
             ChildForm.Dock = DockStyle.Fill;
