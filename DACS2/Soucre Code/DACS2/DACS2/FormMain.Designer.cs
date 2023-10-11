@@ -88,7 +88,7 @@ namespace DACS2
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(262, 915);
+            this.panel2.Size = new System.Drawing.Size(262, 894);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox7
@@ -194,7 +194,7 @@ namespace DACS2
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(228)))));
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox8.Location = new System.Drawing.Point(12, 845);
+            this.pictureBox8.Location = new System.Drawing.Point(12, 656);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(55, 58);
             this.pictureBox8.TabIndex = 15;
@@ -208,7 +208,7 @@ namespace DACS2
             this.btnT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(103)))), ((int)(((byte)(119)))));
             this.btnT.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnT.Location = new System.Drawing.Point(0, 837);
+            this.btnT.Location = new System.Drawing.Point(0, 648);
             this.btnT.Name = "btnT";
             this.btnT.Size = new System.Drawing.Size(267, 78);
             this.btnT.TabIndex = 8;
@@ -324,7 +324,6 @@ namespace DACS2
             this.btnDT.Size = new System.Drawing.Size(267, 78);
             this.btnDT.TabIndex = 3;
             this.btnDT.Text = "DOANH THU";
-            this.btnDT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDT.UseVisualStyleBackColor = false;
             this.btnDT.Click += new System.EventHandler(this.btnDT_Click);
             // 
@@ -352,7 +351,7 @@ namespace DACS2
             this.panel_body.Location = new System.Drawing.Point(262, 0);
             this.panel_body.Margin = new System.Windows.Forms.Padding(5);
             this.panel_body.Name = "panel_body";
-            this.panel_body.Size = new System.Drawing.Size(1450, 915);
+            this.panel_body.Size = new System.Drawing.Size(1535, 894);
             this.panel_body.TabIndex = 1;
             // 
             // panel1
@@ -363,7 +362,7 @@ namespace DACS2
             this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(262, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1450, 70);
+            this.panel1.Size = new System.Drawing.Size(1535, 67);
             this.panel1.TabIndex = 3;
             // 
             // labelName
@@ -372,7 +371,7 @@ namespace DACS2
             this.labelName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(139)))));
             this.labelName.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelName.ForeColor = System.Drawing.Color.White;
-            this.labelName.Location = new System.Drawing.Point(627, 19);
+            this.labelName.Location = new System.Drawing.Point(632, 9);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(101, 37);
             this.labelName.TabIndex = 4;
@@ -383,7 +382,7 @@ namespace DACS2
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1712, 915);
+            this.ClientSize = new System.Drawing.Size(1797, 894);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_body);
             this.Controls.Add(this.panel2);

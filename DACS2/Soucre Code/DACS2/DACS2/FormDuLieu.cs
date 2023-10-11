@@ -42,13 +42,13 @@ namespace DACS2
             dgvSP.EnableHeadersVisualStyles = false;
             dgvSP.BorderStyle = BorderStyle.None;
 
-            dgvSP.BackgroundColor = Color.FromArgb(255, 250, 250);
+            dgvSP.BackgroundColor = Color.FromArgb(255, 255, 255);
             dgvSP.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvSP.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
-            dgvSP.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvSP.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvSP.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvSP.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvSP.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvSP.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvSP.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvSP.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 255, 255);
             dgvSP.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
             dgvSP.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
@@ -94,13 +94,13 @@ namespace DACS2
             dgvTH.EnableHeadersVisualStyles = false;
             dgvTH.BorderStyle = BorderStyle.None;
 
-            dgvTH.BackgroundColor = Color.FromArgb(255, 250, 250);
+            dgvTH.BackgroundColor = Color.FromArgb(255, 255, 255);
             dgvTH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvTH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
-            dgvTH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvTH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvTH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvTH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvTH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvTH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvTH.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvTH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 255, 255);
             dgvTH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
             dgvTH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
@@ -132,13 +132,13 @@ namespace DACS2
             dgvGG.EnableHeadersVisualStyles = false;
             dgvGG.BorderStyle = BorderStyle.None;
 
-            dgvGG.BackgroundColor = Color.FromArgb(255, 250, 250);
+            dgvGG.BackgroundColor = Color.FromArgb(255, 255, 255);
             dgvGG.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvGG.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
-            dgvGG.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvGG.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvGG.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvGG.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvGG.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvGG.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvGG.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvGG.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 255, 255);
             dgvGG.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
             dgvGG.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 

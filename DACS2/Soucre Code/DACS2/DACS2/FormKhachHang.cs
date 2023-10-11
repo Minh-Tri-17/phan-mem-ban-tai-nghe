@@ -35,13 +35,13 @@ namespace DACS2
             dgvKH.EnableHeadersVisualStyles = false;
             dgvKH.BorderStyle = BorderStyle.None;
 
-            dgvKH.BackgroundColor = Color.FromArgb(255, 250, 250);
+            dgvKH.BackgroundColor = Color.FromArgb(255, 255, 255);
             dgvKH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvKH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0); 
-            dgvKH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvKH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvKH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvKH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvKH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvKH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvKH.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvKH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 255, 255);
             dgvKH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
             dgvKH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0); 
 

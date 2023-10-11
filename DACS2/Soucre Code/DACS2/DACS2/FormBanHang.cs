@@ -62,13 +62,13 @@ namespace DACS2
             dgvBH.EnableHeadersVisualStyles = false;
             dgvBH.BorderStyle = BorderStyle.None;
 
-            dgvBH.BackgroundColor = Color.FromArgb(255, 250, 250);
+            dgvBH.BackgroundColor = Color.FromArgb(255, 255, 255);
             dgvBH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvBH.ColumnHeadersDefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
-            dgvBH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvBH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvBH.DefaultCellStyle.BackColor = Color.FromArgb(255, 250, 250);
-            dgvBH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 250, 250);
+            dgvBH.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvBH.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvBH.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 255);
+            dgvBH.DefaultCellStyle.SelectionForeColor = Color.FromArgb(255, 255, 255);
             dgvBH.DefaultCellStyle.SelectionBackColor = Color.FromArgb(205, 92, 92);
             dgvBH.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 0);
 
@@ -256,15 +256,6 @@ namespace DACS2
                
             }
             
-        }
-
-        private void btnCMR_Click(object sender, EventArgs e)
-        {
-            if (VideoCaptureDevice != null)
-            {
-                if (VideoCaptureDevice.IsRunning)
-                    VideoCaptureDevice.Stop();
-            }
         }
     }
 }
